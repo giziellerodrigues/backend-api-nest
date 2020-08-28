@@ -1,0 +1,22 @@
+POST http://localhost:3000/categorias/
+Content-Type: application/json
+
+{
+    "descricao": "Bebidas"
+}
+
+###
+
+POST http://localhost:3000/categorias/
+Content-Type: application/json
+
+{
+    "descricao": "Eletronicos"
+}
+
+###
+
+GET http://localhost:3000/categorias/
+
+###
+GET http://localhost:3000/categorias/1
